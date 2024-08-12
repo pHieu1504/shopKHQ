@@ -1,0 +1,513 @@
+body{
+    background-color: #000;
+}
+
+ul.admincp_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.admincp_list li {
+    float: left;
+    margin: 5px;
+}
+.clear{
+	clear: both;
+}
+h3.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.wrapper{
+	border:1px solid #fff;
+    border-radius: 10px;
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+.form{
+    width: 100%;
+    margin: 0 auto;
+}
+.form h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.form table{
+    width: 100% ;
+    padding: 10px;
+}
+.form table form tr{
+    margin-top: 20px;
+}
+.table{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.input1{
+    display: flex;
+    width: 100%; margin-top: 20px;height: 40px;
+    
+    
+}
+
+.input1 h3{
+    width: 200px;
+    font-size: 17px;
+}
+.input1 input{
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgb(141, 141, 141);
+
+}
+.input3 h3{
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input2{
+    width: 300px;
+    margin: 20px auto;
+
+
+}
+.input2 input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.input2 input:hover{
+    background-color: rgb(4, 84, 255);
+}
+.table-title{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.id{
+    width: 10%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.id2{
+    width: 10%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.Tendanhmuc{
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.Tendanhmuc2{
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.Quanly{
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.Quanly2{
+    width: 20%;
+   
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.xoa-btn{
+    padding: 7px;
+    text-decoration: none;
+    background-color: rgb(255, 125, 125);
+    
+    color: #fff;
+    border-radius: 10px;cursor: pointer;
+}
+.sua-btn{
+    padding: 7px;
+    text-decoration: none;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    border-radius: 10px;cursor: pointer;
+    border: 1px solid#000;
+    border-radius: 10px;
+}
+.xoa-btn:hover{
+    background-color: red;
+    opacity: 1;
+}
+.sua-btn:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+label {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  #file-chosen{
+    
+    font-family: sans-serif;
+  }
+
+
+
+
+  
+  .btn-ha{
+      margin-top: 10px;
+      margin-left:-40px;
+  }
+  .custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color: indigo;
+    border-radius: 15px;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: indigo;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 15px
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+.id3{
+    width: 4%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Tensanpham{
+    width: 15%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Hinhanh{
+    width: 15%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Giasp{
+    width: 10%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Soluong{
+    width: 4%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Sale{
+    width: 3%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Sanxuat{
+    width: 7%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Danhmuc{
+    width: 8%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Band{
+    width: 6%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Masp{
+    width: 7%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Tomtat{
+    width: 15%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Trangthai{
+    width:5%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.Quanly3{
+    width: 10%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.table-sp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sp{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid  #000;
+    border-radius: 5px !important;
+
+}
+.quanlysp{
+    border: none !important;
+}
+.tenbaiviet{
+    width: 15%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.hinhanhbv{
+    width: 15%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.danhmucbv{
+    width: 10%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.tomtatbv{
+    width: 30%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.trangthaibv{
+    width: 10%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.quanlybv{
+    width: 13%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+    border: none !important;
+}
+.madonhang{
+    width: 7%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.tenkhachhang{
+    width: 13%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.diachi{
+    width: 15%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.email{
+    width: 25%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.sdt{
+    width: 10%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.TT{
+    width: 5%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.date{
+    width: 10%;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.quanli_3{
+    width: 7%;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+a{
+    text-decoration: none !important;
+}
+.makecolor{
+    background-color: rgb(89, 0, 255);
+    color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sp2{
+    background-color: #fff !important;
+}

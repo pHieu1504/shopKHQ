@@ -1,0 +1,166 @@
+
+    @media only screen and (max-width:650px) {
+        .header {
+            width: 100% !important;
+        }
+        .header1-content{
+            width: 100% !important;
+            display: block !important;
+        }
+        .news2{
+            right: 0 !important;
+           
+        }
+        .news{
+         
+        }
+        .search{
+            width: 70% !important;
+            margin: 0 auto;
+            padding-right: 0 !important;
+            margin-right: 20px;
+
+           
+          
+        }
+        .header2-content{
+            width: 100% !important;
+        }
+        .banner{
+            min-height: 680px;
+        }
+        .banner_content{
+            width: 100% !important;
+            display: block !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .main-content{
+            width: 100% !important;
+        }
+        .main3{
+            width: 100% !important;
+        }
+        .footer-content{
+            width: 100% !important;
+        }
+        .main1{
+            width: 100% !important;
+            
+        }
+        .chitiet{
+            width: 100% !important;
+            padding: 10px;
+        }
+        .main5{
+            width: 100% !important;
+        }
+        .header2-content{
+            display: block !important;
+            margin-top: 50px !important;
+            background-color: #000;
+        }
+        /* .header-ul-left{
+            display: none !important;
+        }
+         */
+         .header2{
+             display: none;
+         }
+         .header1{
+             height: 150px !important;
+            
+         }
+         .bar-mobie{
+             display: block !important;
+
+         }
+         .header-li-contents{
+             width: 100% !important;
+         }
+         .banner_content-img{
+             width: 100% !important;
+             height: auto !important;
+         }
+         .banner_content-img img{
+             width: 100% !important;
+             height: auto !important;
+         }
+         .banner_content-content{
+             width: 100%;
+             margin: 0 !important;
+             padding: 10px;
+         }
+         .main1-item{
+             width: 100% !important;
+             margin:0 !important;
+             margin-top: 10px !important;
+             
+         }
+         .main1-item-content{
+             height: 170px ;
+         }
+         .main1-item-img{
+             width: 100% !important;
+         }
+        .main3-1ct{
+            display:block !important;
+        }
+        .main3-content_right{
+            width: 100% !important;
+            margin: 0 !important;
+            margin-top: 20px !important;
+        }
+        .main3-content_left{
+            width: 100% !important;
+        }
+        .footer-content{
+            display: block !important;
+        }
+        .main-bv{
+            width: 100% !important;
+        }
+        .bv-title{
+            width: 90% !important;
+            
+        }
+        .tablinks-vip{
+            width: 100% !important; 
+        }
+        .tablinks-vip li a{
+            margin-top: 10px !important;
+        }
+        .tintuc_nb{
+            width: 100% !important;
+            padding: 0 !important;
+        }
+        .tintuc_nb-items {
+            padding: 10px !important;
+        }
+        .main2 {
+            margin: 0 !important;
+        }
+        .wrapper_chitiet{
+            display: block !important;
+        }
+        .chitiet_sanpham{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .column{
+            width: 19% !important;
+            margin: 1px !important;
+        }
+        .tab-content p {
+            width: 100% !important;
+        }
+        .header-table{
+            display: none !important;
+        }
+        .pc-thanhtoan{
+            display: none !important;
+        }
+        .media-thanhtoan{
+            display: flex !important;
+        }
+    }
