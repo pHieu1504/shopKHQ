@@ -308,9 +308,6 @@
   margin-left: 10px;
 }
 
-.box-seemore a {
-}
-
 .box-seemore a:hover {
   text-decoration: underline 2px solid red;
 
@@ -502,8 +499,6 @@
 
   overflow: hidden;
 
-  -webkit-line-clamp: 3;
-
   display: -webkit-box;
 
   -webkit-box-orient: vertical;
@@ -690,8 +685,6 @@
 .item1-title {
   overflow: hidden;
 
-  -webkit-line-clamp: 3;
-
   display: -webkit-box;
 
   -webkit-box-orient: vertical;
@@ -789,8 +782,6 @@
   color: rgb(141, 141, 141);
 
   overflow: hidden;
-
-  -webkit-line-clamp: 4;
 
   display: -webkit-box;
 
@@ -1179,9 +1170,6 @@ ul#tabs-nav li.active {
   transform: scale(1.1);
 
   transition: 0.3s ease-in-out;
-}
-
-.tab-content {
 }
 
 * {
