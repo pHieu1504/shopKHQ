@@ -1,3 +1,8 @@
+<?php
+ob_start(); // Bật buffer để tránh lỗi header
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,11 +27,7 @@
 <body>
     <div class="wrapper">
 
-
         <?php
-
-
-
         session_start();
         include("admincp/config/config.php");
         include("pages/menu.php");
