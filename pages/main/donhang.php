@@ -27,13 +27,13 @@ $query_orders = mysqli_query($mysqli, $sql_orders);
     <?php
     while ($row_order = mysqli_fetch_array($query_orders)) {
     ?>
-    <tr>
-        <td><?php echo $row_order['id_donhang']; ?></td>
-        <td><?php echo $row_order['ngaydat']; ?></td>
-        <td><?php echo number_format($row_order['tongtien'], 0, ',', '.').' vnđ'; ?></td>
-        <td><?php echo $row_order['trangthai']; ?></td>
-        <td><a href="orderdetails.php?id=<?php echo $row_order['id_donhang']; ?>">Xem chi tiết</a></td>
-    </tr>
+        <tr>
+            <td><?php echo $row_order['id_donhang']; ?></td>
+            <td><?php echo $row_order['ngaydat']; ?></td>
+            <td><?php echo number_format($row_order['tongtien'], 0, ',', '.') . ' vnđ'; ?></td>
+            <td><?php echo $row_order['trangthai']; ?></td>
+            <td><a href="donhangchitiet.php?id=<?php echo $row_order['id_donhang']; ?>">Xem chi tiết</a></td>
+        </tr>
     <?php
     }
     ?>

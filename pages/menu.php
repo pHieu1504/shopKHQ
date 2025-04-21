@@ -1,14 +1,15 @@
 <?php
-  $sql_danhmuc = "SELECT * FROM tbl_danhmuc ORDER BY id_danhmuc DESC";
-  $query_danhmuc = mysqli_query($mysqli, $sql_danhmuc);
+$sql_danhmuc = "SELECT * FROM tbl_danhmuc ORDER BY id_danhmuc DESC";
+$query_danhmuc = mysqli_query($mysqli, $sql_danhmuc);
 
-  $sql_danhmuc2 = "SELECT * FROM tbl_band ORDER BY id_band DESC";
-  $query_danhmuc2 = mysqli_query($mysqli, $sql_danhmuc2);
+$sql_danhmuc2 = "SELECT * FROM tbl_band ORDER BY id_band DESC";
+$query_danhmuc2 = mysqli_query($mysqli, $sql_danhmuc2);
 
-  if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {
-    unset($_SESSION['dangky']);
-  }
+if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {
+  unset($_SESSION['dangky']);
+}
 ?>
+
 <div class="header2">
   <div class="header2-content">
     <ul class="header-ul-left">
